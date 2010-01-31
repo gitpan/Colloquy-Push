@@ -1,0 +1,38 @@
+Colloquy-Push version 0.01
+==========================
+
+Colloquy::Push can be used to dispatch "Push" notifications to iPhones running
+the Mobile Colloquy IRC client. The module uses the messaging server that is
+provided by the colloquy.mobi team.
+
+The messaging protocol used is a JSON-based format documented here:
+   http://colloquy.mobi/bouncers.html
+
+RESOURCES
+
+Source/Wiki:
+   http://code.google.com/p/colloquy-push/
+   
+INSTALLATION
+
+To install this module type the following:
+   perl Build.PL
+   perl Build test
+ * if everything passes *
+   perl Build install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+   IO::Socket::SSL
+
+
+COPYRIGHT AND LICENSE
+
+Copyright (C) 2010 Brandon Gilmore <brandon@mg2.org>
+
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself, either Perl version 5.10.0 or, at your option,
+any later version of Perl 5 you may have available.
+

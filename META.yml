@@ -1,0 +1,23 @@
+---
+name: Colloquy-Push
+version: 0.01
+author:
+  - 'Brandon Gilmore <brandon@mg2.org>'
+abstract: APNS messaging for Mobile Colloquy
+license: perl
+requires:
+  Carp: 0
+  IO::Socket::SSL: '>= 0.93'
+  perl: 5.8.0
+build_requires:
+  Test::More: 0
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
+provides:
+  Colloquy::Push:
+    file: lib/Colloquy/Push.pm
+    version: 0.01
+resources:
+  license: http://dev.perl.org/licenses/
